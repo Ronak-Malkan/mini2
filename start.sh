@@ -3,6 +3,7 @@
 cd "$(dirname "$0")/.." || exit
 
 # Run generate_proto.sh
+chmod +x ./generate_proto.sh
 ./generate_proto.sh
 
 python3 -m grpc_tools.protoc -I=proto \
