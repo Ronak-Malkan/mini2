@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package dataportal;
+
+service DataPortal {
+  rpc SendData (DataRequest) returns (Ack) {}
+}
+
+message DataRequest {
+  string id = 1;
+  string payload = 2;
+}
+
+message Ack {
+  string message = 1;
+}

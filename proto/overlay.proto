@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package overlay;
+
+service OverlayComm {
+  rpc PushData (OverlayRequest) returns (OverlayAck) {}
+}
+
+message OverlayRequest {
+  string origin = 1;
+  string payload = 2;
+}
+
+message OverlayAck {
+  string status = 1;
+}
