@@ -3,3 +3,4 @@
 /clients/__pycache__/
 /clients/data_pb2_grpc.py
 /clients/data_pb2.py
+/data/dataset.csv

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd "$(dirname "$0")/.." || exit
-
 # Run generate_proto.sh
 chmod +x ./generate_proto.sh
 ./generate_proto.sh

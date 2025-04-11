@@ -1,7 +1,7 @@
 {
-  "A": ["localhost"],
-  "B": ["C", "D"],
-  "C": ["E"],
-  "D": ["E"],
+  "A": ["localhost:50052", "localhost:50053"],
+  "B": ["localhost:50054"],
+  "C": ["localhost:50055"],
+  "D": [],
   "E": []
 }
